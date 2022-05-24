@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Lesson_2
 {
-    public class Game1 : Game
+    public class Lesson2 : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
@@ -14,7 +14,7 @@ namespace Lesson_2
         Rectangle circleRect1;
         Rectangle circleRect2;
         SpriteFont titleFont;
-        public Game1()
+        public Lesson2()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
